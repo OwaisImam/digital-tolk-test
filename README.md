@@ -6,6 +6,7 @@
 2. Run `composer install`.
 3. Copy `.env.example` to `.env` and configure database.
 4. Run migrations: `php artisan migrate`.
+4. Run seeder: `php artisan db:seed`.
 5. Generate JWT key: `php artisan jwt:secret`.
 6. Start server: `php artisan serve` or use Sail.
 
